@@ -135,7 +135,8 @@ nav li:first-child{
         display:none;
     }
     .menuButton{
-        display: block;
+        display: flex;
+        padding-left: 30vw;
     }
 }
 @media(max-width: 700px){
