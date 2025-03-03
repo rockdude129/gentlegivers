@@ -1,47 +1,97 @@
-<!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>The Gentle Givers</title>
-		<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/rockdude129/gentlegivers/refs/heads/main/images/favicon.ico">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Madimi+One&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="index.js">
+	</script>
+	<nav>
+		<ul class="sidebar">
+			<li onclick=hideSidebar()><a href="#"><img src=close.svg>   Close   </a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Our Mission</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<ul>
+			<li><a href="#"><img id="heart" height = "75px" width="75px" src="https://i.postimg.cc/MpVyLPS3/360-F-137144542-v1-OKi-Q7a-Ja-KZ7mdle-Kj-T0-Oo-PSe-OFjd-XV-removebg-preview.png"></a></li>
+			<li class="hideOnMobile"><a href="#">Home</a></li>
+			<li class="hideOnMobile"><a href="#">About</a></li>
+			<li class="hideOnMobile"><a href="#">Our Mission</a></li>
+			<li class="hideOnMobile"><a href="#">Contact</a></li>
+			<li class="menuButton" onclick=showSidebar()><a href="#"><img src=menu.svg></a></li>
+		</ul>
+	</nav>
+	<div id="theintro">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<span id="breaks">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</span>
+	<h1>The Gentle Givers</h1>
+	<br>
+	<br>
+	<h2>A Non-Profit by:<br>Nandan, Rohan, & Alex</h2>
+	<br>
+	<br>
+	<br>
+	<span id="breaks">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</span>
+	<span id="formobile">
+	<center>
+	<img height="50px" width="50px" src=swipedown.svg>	
+	</center>
+	</span>
+	</div>
+	<div id="about">
+		<h3>What do we do?</h1>
+		<br>
+		<br>
+		<p id="aboutpara" font=Inter>At the Gentle Givers Foundation, we are highschool students who want to give back to our community that has supported, and continues to support us. We believe that one of the largest issues in our community is people not being able to afford items for their children. As a solution, we donate clothes and toys that we collect from elementary and middle schools to families with a lesser income, trying to help children be less restricted by their family's wealth.</p>
+		<div id="breaks">
+		<br>
+		<br>
+		<br>
+		</div>
+		<br>
+		<br>
+		<div id="fcorners">
 
-		<!-- Header -->
-			<header id="header">
-				<h1>The Gentle Givers Foundation:<br></h1> 
-				<b><h2>A Project by Nandan, Rohan, & Alex</h2></b>
-				<br>
-				<p>NOTE: This project is a WOP (Work In Progress). To contact, please use the signupform below or click the links at the bottom of the page.</p>
-				<p>The Gentle Givers Foundation is a non-profit organization that collects clothing,<br> toys, and other items to give to children in need. While doing this, we collect these <br>items from elementary and middle schools, educating kids on why doing this is good <br> and how their actions can help kids in need.				</p>
-			</header>
-
-		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="mailto:nandan.pericherla@gmail.com">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
-			</form>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/company/the-gentle-givers-foundation/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="mailto:nandan.pericherla@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; The Gentle Givers Foundation 2025.</li>
-				</ul>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+		</div>
+	</div>
+</body>
 </html>
