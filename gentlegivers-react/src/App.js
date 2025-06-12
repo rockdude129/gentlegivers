@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import heartIcon from './assets/hearticon.png';
-import clothesImage from './assets/clothes.png';
-import toysImage from './assets/toys.png';
 import menuIcon from './assets/menu.svg';
 import closeIcon from './assets/close.svg';
 

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import clothesImage from '../assets/clothes.png';
-import toysImage from '../assets/toys.png';
 import aboutImg from '../assets/iStock-1362787530-1_11zon-1024x683.webp';
 
 const Home = () => {
